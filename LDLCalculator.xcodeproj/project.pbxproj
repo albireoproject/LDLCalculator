@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB5ED46E1A05253C004278B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5ED46D1A05253C004278B5 /* AppDelegate.swift */; };
+		FB5ED4701A05253C004278B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5ED46F1A05253C004278B5 /* ViewController.swift */; };
+		FB5ED4731A05253C004278B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5ED4711A05253C004278B5 /* Main.storyboard */; };
+		FB5ED4751A05253C004278B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB5ED4741A05253C004278B5 /* Images.xcassets */; };
+		FB5ED4781A05253C004278B5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB5ED4761A05253C004278B5 /* LaunchScreen.xib */; };
+		FB5ED4841A05253C004278B5 /* LDLCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5ED4831A05253C004278B5 /* LDLCalculatorTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB5ED47E1A05253C004278B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB5ED4601A05253C004278B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB5ED4671A05253C004278B5;
+			remoteInfo = LDLCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB5ED4681A05253C004278B5 /* LDLCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LDLCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB5ED46C1A05253C004278B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB5ED46D1A05253C004278B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB5ED46F1A05253C004278B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB5ED4721A05253C004278B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB5ED4741A05253C004278B5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FB5ED4771A05253C004278B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FB5ED47D1A05253C004278B5 /* LDLCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LDLCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB5ED4821A05253C004278B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB5ED4831A05253C004278B5 /* LDLCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LDLCalculatorTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB5ED4651A05253C004278B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5ED47A1A05253C004278B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB5ED45F1A05253C004278B5 = {
+			isa = PBXGroup;
+			children = (
+				FB5ED46A1A05253C004278B5 /* LDLCalculator */,
+				FB5ED4801A05253C004278B5 /* LDLCalculatorTests */,
+				FB5ED4691A05253C004278B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB5ED4691A05253C004278B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB5ED4681A05253C004278B5 /* LDLCalculator.app */,
+				FB5ED47D1A05253C004278B5 /* LDLCalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB5ED46A1A05253C004278B5 /* LDLCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				FB5ED46D1A05253C004278B5 /* AppDelegate.swift */,
+				FB5ED46F1A05253C004278B5 /* ViewController.swift */,
+				FB5ED4711A05253C004278B5 /* Main.storyboard */,
+				FB5ED4741A05253C004278B5 /* Images.xcassets */,
+				FB5ED4761A05253C004278B5 /* LaunchScreen.xib */,
+				FB5ED46B1A05253C004278B5 /* Supporting Files */,
+			);
+			path = LDLCalculator;
+			sourceTree = "<group>";
+		};
+		FB5ED46B1A05253C004278B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB5ED46C1A05253C004278B5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB5ED4801A05253C004278B5 /* LDLCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB5ED4831A05253C004278B5 /* LDLCalculatorTests.swift */,
+				FB5ED4811A05253C004278B5 /* Supporting Files */,
+			);
+			path = LDLCalculatorTests;
+			sourceTree = "<group>";
+		};
+		FB5ED4811A05253C004278B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB5ED4821A05253C004278B5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB5ED4671A05253C004278B5 /* LDLCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB5ED4871A05253C004278B5 /* Build configuration list for PBXNativeTarget "LDLCalculator" */;
+			buildPhases = (
+				FB5ED4641A05253C004278B5 /* Sources */,
+				FB5ED4651A05253C004278B5 /* Frameworks */,
+				FB5ED4661A05253C004278B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LDLCalculator;
+			productName = LDLCalculator;
+			productReference = FB5ED4681A05253C004278B5 /* LDLCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB5ED47C1A05253C004278B5 /* LDLCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB5ED48A1A05253C004278B5 /* Build configuration list for PBXNativeTarget "LDLCalculatorTests" */;
+			buildPhases = (
+				FB5ED4791A05253C004278B5 /* Sources */,
+				FB5ED47A1A05253C004278B5 /* Frameworks */,
+				FB5ED47B1A05253C004278B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB5ED47F1A05253C004278B5 /* PBXTargetDependency */,
+			);
+			name = LDLCalculatorTests;
+			productName = LDLCalculatorTests;
+			productReference = FB5ED47D1A05253C004278B5 /* LDLCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB5ED4601A05253C004278B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Hongsun Yoon, M.D.";
+				TargetAttributes = {
+					FB5ED4671A05253C004278B5 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					FB5ED47C1A05253C004278B5 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = FB5ED4671A05253C004278B5;
+					};
+				};
+			};
+			buildConfigurationList = FB5ED4631A05253C004278B5 /* Build configuration list for PBXProject "LDLCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB5ED45F1A05253C004278B5;
+			productRefGroup = FB5ED4691A05253C004278B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB5ED4671A05253C004278B5 /* LDLCalculator */,
+				FB5ED47C1A05253C004278B5 /* LDLCalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB5ED4661A05253C004278B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5ED4731A05253C004278B5 /* Main.storyboard in Resources */,
+				FB5ED4781A05253C004278B5 /* LaunchScreen.xib in Resources */,
+				FB5ED4751A05253C004278B5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5ED47B1A05253C004278B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB5ED4641A05253C004278B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5ED4701A05253C004278B5 /* ViewController.swift in Sources */,
+				FB5ED46E1A05253C004278B5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5ED4791A05253C004278B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5ED4841A05253C004278B5 /* LDLCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB5ED47F1A05253C004278B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB5ED4671A05253C004278B5 /* LDLCalculator */;
+			targetProxy = FB5ED47E1A05253C004278B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB5ED4711A05253C004278B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB5ED4721A05253C004278B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB5ED4761A05253C004278B5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB5ED4771A05253C004278B5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB5ED4851A05253C004278B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB5ED4861A05253C004278B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB5ED4881A05253C004278B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LDLCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB5ED4891A05253C004278B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LDLCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FB5ED48B1A05253C004278B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LDLCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LDLCalculator.app/LDLCalculator";
+			};
+			name = Debug;
+		};
+		FB5ED48C1A05253C004278B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LDLCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LDLCalculator.app/LDLCalculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB5ED4631A05253C004278B5 /* Build configuration list for PBXProject "LDLCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5ED4851A05253C004278B5 /* Debug */,
+				FB5ED4861A05253C004278B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB5ED4871A05253C004278B5 /* Build configuration list for PBXNativeTarget "LDLCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5ED4881A05253C004278B5 /* Debug */,
+				FB5ED4891A05253C004278B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB5ED48A1A05253C004278B5 /* Build configuration list for PBXNativeTarget "LDLCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5ED48B1A05253C004278B5 /* Debug */,
+				FB5ED48C1A05253C004278B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB5ED4601A05253C004278B5 /* Project object */;
+}
