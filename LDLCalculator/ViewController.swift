@@ -9,6 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var totalCholesterolTextField: UITextField!
+    @IBOutlet weak var hdlCholesterolTextField: UITextField!
+    @IBOutlet weak var triglyceridesTextField: UITextField!
+    @IBOutlet weak var resultLabelText: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +24,14 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func buttonPressed(sender: UIButton) {
+        let totalCholesterolDouble = Double((totalCholesterolTextField.text as NSString).doubleValue)
+        let hdlCholesterolDouble = Double((hdlCholesterolTextField.text as NSString).doubleValue)
+        let triglyceridesDouble = Double((triglyceridesTextField.text as NSString).doubleValue)
+        let calculatedLDL = totalCholesterolDouble - hdlCholesterolDouble - (triglyceridesDouble / 5)
+        resultLabelText.hidden = false
+        resultLabelText.text = "\(calculatedLDL)" + " mg/dL"
+    }
 
 }
 
