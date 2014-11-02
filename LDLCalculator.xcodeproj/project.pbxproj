@@ -13,6 +13,7 @@
 		FB5ED4751A05253C004278B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB5ED4741A05253C004278B5 /* Images.xcassets */; };
 		FB5ED4781A05253C004278B5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB5ED4761A05253C004278B5 /* LaunchScreen.xib */; };
 		FB5ED4841A05253C004278B5 /* LDLCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5ED4831A05253C004278B5 /* LDLCalculatorTests.swift */; };
+		FB61E3721A0665C20002FDC8 /* 59-info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB61E3711A0665C20002FDC8 /* 59-info@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		FB5ED47D1A05253C004278B5 /* LDLCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LDLCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB5ED4821A05253C004278B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB5ED4831A05253C004278B5 /* LDLCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LDLCalculatorTests.swift; sourceTree = "<group>"; };
+		FB61E3711A0665C20002FDC8 /* 59-info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "59-info@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		FB5ED46B1A05253C004278B5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FB61E3711A0665C20002FDC8 /* 59-info@2x.png */,
 				FB5ED46C1A05253C004278B5 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,6 +197,7 @@
 			files = (
 				FB5ED4731A05253C004278B5 /* Main.storyboard in Resources */,
 				FB5ED4781A05253C004278B5 /* LaunchScreen.xib in Resources */,
+				FB61E3721A0665C20002FDC8 /* 59-info@2x.png in Resources */,
 				FB5ED4751A05253C004278B5 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +411,7 @@
 				FB5ED4891A05253C004278B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB5ED48A1A05253C004278B5 /* Build configuration list for PBXNativeTarget "LDLCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				FB5ED48C1A05253C004278B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
